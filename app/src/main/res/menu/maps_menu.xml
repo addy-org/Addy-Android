@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_addCustomName"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="AssignCustomName"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/action_signOut"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="SignOut"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "842939912941",
+    "firebase_url": "https://addy-c36e3.firebaseio.com",
+    "project_id": "addy-c36e3",
+    "storage_bucket": "addy-c36e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842939912941:android:e1520c0e6095ac6b",
+        "android_client_info": {
+          "package_name": "reverieworks.addy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842939912941-m3l98863indp32tpfbds59renvcvf3tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJZuzOsHKY3MqpViduSy3dQ5tqXouQ7bY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

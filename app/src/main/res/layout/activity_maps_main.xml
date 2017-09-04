@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinatorLayout_MainRequestBlood"
+    tools:context="reverieworks.addy.Activity.Homepage">
+
+
+    <include layout="@layout/activity_maps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        android:background="@android:color/background_light"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+        <!--<include layout="@layout/fragment_bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />-->
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

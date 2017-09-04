@@ -1,0 +1,196 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="reverieworks.addy.Fragment.SignUp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout_UserDetailsInput"
+                        android:layout_margin="20dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:text="N"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView_userLogo_signUp"
+                                android:layout_gravity="center_vertical"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:textSize="20dp"
+                                android:textColor="@color/colorLightGreen"/>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/input_layout_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/editText_Name_SignUp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Your Name"
+                                    android:inputType="textPersonName"/>
+
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:text="E"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView_EmailLogo_signUp"
+                                android:layout_gravity="center_vertical"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:textSize="20sp"
+                                android:textColor="@color/colorLightGreen"/>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/inputLayout_Email_SignUp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/editText_Email_SignUp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Your Email"
+                                    android:inputType="textEmailAddress" />
+
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:text="P"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textView_PasswordLogo_signUp"
+                                android:layout_gravity="center_vertical"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:textSize="20sp"
+                                android:textColor="@color/colorLightGreen"/>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/inputLayout_password_SignUp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <EditText
+                                        android:id="@+id/editText_Password_SignUp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Password"
+                                        android:inputType="textPassword" />
+
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:text="V"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/textView_ViewPassword_signUp"
+                                    android:layout_centerVertical="true"
+                                    android:paddingStart="10dp"
+                                    android:paddingEnd="10dp"
+                                    android:textSize="20sp"
+                                    android:layout_alignParentEnd="true"
+                                    android:textColor="@color/colorLightGreen"/>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout_LogInButton"
+                        android:paddingTop="20dp">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Sign Up"
+                            android:id="@+id/button_signUp_signUp"
+                            android:textColor="@color/colorTextButton"
+                            android:theme="@style/StyleRaisedButton"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:paddingTop="20dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="By signing up, you agree to our"
+                                android:textSize="12sp"
+                                android:theme="@style/StyleRaisedButton"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text=" terms and conditions"
+                                android:textColor="#0B0080"
+                                android:textStyle="italic"
+                                android:textSize="12sp"
+                                android:linksClickable="true"
+                                android:theme="@style/StyleRaisedButton"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+</FrameLayout>
