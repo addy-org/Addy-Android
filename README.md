@@ -10,5 +10,6 @@ Like you have an Email ID, for addresses you have Addy! An app that changes the 
   <li>Firebase</li>
   <li>Google Maps Geocoder and Places API</li>
 </ul>
+
 ## Contribution Guidelines
 https://github.com/Addy-Smart-Addresses/Addy-Android/wiki/Contribution-Guidelines
