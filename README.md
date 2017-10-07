@@ -13,3 +13,6 @@ Like you have an Email ID, for addresses you have Addy! An app that changes the 
 
 ## Contribution Guidelines
 https://github.com/Addy-Smart-Addresses/Addy-Android/wiki/Contribution-Guidelines
+
+## Gitter Channel
+https://gitter.im/Addy-Smart-Addresses
