@@ -107,7 +107,6 @@ public class MapsActivity extends AppCompatActivity implements
 
         assert getSupportActionBar() != null;
         {
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle("Addy");
         }
 
