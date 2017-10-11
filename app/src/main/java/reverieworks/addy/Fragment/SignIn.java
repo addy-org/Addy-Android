@@ -60,7 +60,6 @@ public class SignIn extends Fragment implements GoogleApiClient.OnConnectionFail
     private EditText editText_password;
     private ImageView imageView_facebookLogIn;
     private ImageView imageView_GoogleLogIn;
-    private ImageView imageView_TwitterLogIn;
     private Button button_signIn;
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
@@ -245,39 +244,8 @@ public class SignIn extends Fragment implements GoogleApiClient.OnConnectionFail
             }
         });
 
-        //Twitter LogIn
-        imageView_TwitterLogIn = (ImageView) view.findViewById(R.id.imageView_TwitterLogo_signIn);
-        imageView_TwitterLogIn.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-
-                switch (event.getAction()) {
-
-                    case MotionEvent.ACTION_DOWN: {
-
-                        //overlay is black with transparency of 0x77 (119)
-                        imageView_TwitterLogIn.setColorFilter(0x77000000, PorterDuff.Mode.SRC_ATOP);
-                        imageView_TwitterLogIn.invalidate();
-
-                        twitterLogIn();
-                        break;
-                    }
-                    case MotionEvent.ACTION_UP: {
-                        imageView_TwitterLogIn.clearColorFilter();
-                        imageView_TwitterLogIn.invalidate();
-                        break;
-                    }
-                }
-                return true;
-            }
-        });
-
         // Inflate the layout for this fragment
         return view;
-    }
-
-    private void twitterLogIn() {
-
     }
 
     private void facebookLogIn(View view) {
