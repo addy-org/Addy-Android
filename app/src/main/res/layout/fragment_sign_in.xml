@@ -157,12 +157,14 @@
                         <LinearLayout
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="30dp">
 
                             <LinearLayout
                                 android:orientation="vertical"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:gravity="center"
                                 android:layout_weight="1">
 
                                 <ImageView
@@ -182,28 +184,11 @@
                                     android:layout_marginBottom="30dp" />
                             </LinearLayout>
 
-
                             <LinearLayout
                                 android:orientation="vertical"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1">
-
-                                <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/twitter_logo"
-                                    android:background="@null"
-                                    android:padding="10dp"
-                                    android:id="@+id/imageView_TwitterLogo_signIn"/>
-
-                            </LinearLayout>
-
-
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:gravity="center"
                                 android:layout_weight="1">
 
                                 <ImageView
