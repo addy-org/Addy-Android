@@ -43,17 +43,3 @@ git push -u origin <your_branch_name>
 
 ## Gitter Channel
 https://gitter.im/Addy-Smart-Addresses
-
-## Getting Started with Contributing:
-1. After forking the project, git clone this repository onto your local environment:
-```bash
-git clone https://github.com/bluetch/shopee_design.git
-```
-2. Create a separate Git branch
-```bash
-git branch <your_new_branch_name>
-```
-3. Git checkout your branch
-```bash
-git checkout <your_new_branch_name>
-```
