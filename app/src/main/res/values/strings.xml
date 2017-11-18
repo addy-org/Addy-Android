@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <resources>
     <string name="app_name">Addy</string>
 
@@ -10,7 +11,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="google_place_key"></string>
+    <string name="google_place_key"/>
     <string name="action_settings">Settings</string>
 
     <string name="title_activity_welcome_page">WelcomePage</string>
