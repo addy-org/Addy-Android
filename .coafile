@@ -1,0 +1,15 @@
+[default]
+bears = InvalidLinkBear, coalaBear, FilenameBear
+files = **.xml, **.java, **.md
+
+[java]
+bears = CheckstyleBear, JavaPMDBear
+files = **.java
+
+[markdown]
+bears = MarkdownBear, TextLintBear
+files = **.md
+
+[xml]
+bears = XMLBear
+files = **.xml
