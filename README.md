@@ -20,10 +20,10 @@ Like you have an Email ID, for addresses you have Addy! An app that changes the 
 
 ## Getting Started with Contributing:
 
-1. After forking the project, git clone this repository onto your local environment:
+1. After forking the project, git clone the repository onto your local environment:
 
 ```bash
-git clone https://github.com/Addy-Smart-Addresses/Addy-Android.git
+git clone https://github.com/YOUR-USERNAME/Addy-Android.git
 ```
 
 2. Create a separate Git branch
