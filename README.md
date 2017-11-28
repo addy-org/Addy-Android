@@ -23,7 +23,7 @@ Like you have an Email ID, for addresses you have Addy! An app that changes the 
 1. After forking the project, git clone this repository onto your local environment:
 
 ```bash
-git clone https://github.com/bluetch/shopee_design.git
+git clone https://github.com/Addy-Smart-Addresses/Addy-Android.git
 ```
 
 2. Create a separate Git branch
