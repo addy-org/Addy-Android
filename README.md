@@ -16,7 +16,7 @@ Like you have an Email ID, for addresses you have Addy! An app that changes the 
 
 ## Contribution Guidelines
 
-<https://github.com/Addy-Smart-Addresses/Addy-Android/wiki/Contribution-Guidelines>
+<https://github.com/addy-org/Addy-Android/wiki/Contribution-Guidelines>
 
 ## Getting Started with Contributing:
 
