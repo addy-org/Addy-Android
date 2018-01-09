@@ -14,6 +14,10 @@ Like you have an Email ID, for addresses you have Addy! An app that changes the 
   <li>Google Maps Geocoder and Places API</li>
 </ul>
 
+## Gitter Channel
+
+<https://gitter.im/addy-org>
+
 ## Contribution Guidelines
 
 <https://github.com/addy-org/Addy-Android/wiki/Contribution-Guidelines>
@@ -54,7 +58,3 @@ git push -u origin <your_branch_name>
 ```
 
 8. Go to the GitHub repository and submit a Pull Request.
-
-## Gitter Channel
-
-<https://gitter.im/Addy-Smart-Addresses>
