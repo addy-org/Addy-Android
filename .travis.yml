@@ -1,5 +1,3 @@
-before_script: - chmod +x gradlew
- 
 language: android
 android:
   components:
@@ -24,3 +22,6 @@ android:
     # if you need to run emulator(s) during your tests
     - sys-img-armeabi-v7a-android-26
     - sys-img-armeabi-v7a-android-17
+    
+    before_install:
+ - chmod +x gradlew
