@@ -9,9 +9,35 @@
     tools:context="reverieworks.addy.Activity.Homepage">
 
 
-    <include layout="@layout/activity_maps"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/button_SearchByACode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="500dp"
+        android:layout_weight="1"
+        android:text="Search By ACode"
+        android:textAlignment="center"
+        android:textColor="#fdfdfd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:theme="@style/StyleRaisedButton" />
+
+
+    <Button
+        android:id="@+id/button_SearchByPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginTop="500dp"
+        android:layout_weight="1"
+        android:text="Search By Place"
+        android:textAlignment="center"
+        android:textColor="#fdfdfd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:theme="@style/StyleRaisedButton" />
 
 
     <android.support.v4.widget.NestedScrollView
@@ -22,9 +48,5 @@
         android:background="@android:color/background_light"
         app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
 
-        <!--<include layout="@layout/fragment_bottom_sheet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />-->
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

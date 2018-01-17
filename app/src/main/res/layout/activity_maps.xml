@@ -27,31 +27,33 @@ android:layout_height="fill_parent">
 
 
                 <Button
+                    android:id="@+id/button_SearchByACode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_SearchByACode"
+                    android:layout_alignTop="@+id/map"
+                    android:layout_marginTop="440dp"
+                    android:layout_weight="1"
                     android:text="Search By ACode"
-                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="#fdfdfd"
                     android:textSize="20sp"
-                    android:layout_alignTop="@+id/map"
-                    android:layout_weight="1"
+                    android:textStyle="bold"
                     android:theme="@style/StyleRaisedButton" />
 
 
                 <Button
+                    android:id="@+id/button_SearchByPlace"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_SearchByPlace"
-                    android:text="Search By Place"
-                    android:textStyle="bold"
-                    android:textColor="#fdfdfd"
-                    android:textAlignment="center"
-                    android:textSize="20sp"
                     android:layout_alignTop="@+id/map"
+                    android:layout_marginTop="440dp"
                     android:layout_weight="1"
-                    android:theme="@style/StyleRaisedButton"/>
+                    android:text="Search By Place"
+                    android:textAlignment="center"
+                    android:textColor="#fdfdfd"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:theme="@style/StyleRaisedButton" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
