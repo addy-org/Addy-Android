@@ -1,12 +1,10 @@
-# Code of Conduct
-
 ## 1. Purpose
 
-A primary goal of Addy Android App is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+A primary goal of Addy is to be inclusive of the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behaviour.
 
-We invite all those who participate in Addy Android App to help us create safe and positive experiences for everyone.
+We invite all those who participate in Addy to help us create safe and positive experiences for everyone.
 
 ## 2. Open Source Citizenship
 
@@ -22,7 +20,7 @@ The following behaviour is expected and requested of all community members:
 
 - Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
 - Exercise consideration and respect in your speech and actions.
-- Attempt collaboration before conflict.
+- Attempt collaboration before a conflict.
 - Refrain from demeaning, discriminatory, or harassing behaviour and speech.
 - Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 - Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
@@ -38,9 +36,9 @@ The following behaviours are considered harassment and are unacceptable within o
 - Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
 - Inappropriate photography or recording.
 - Inappropriate physical contact. You should have someone’s consent before touching them.
-- Unwelcome sexual attention. This includes, sexualised comments or jokes; inappropriate touching, groping, and unwelcome sexual advances.
+- Unwelcome sexual attention. This includes sexualised comments or jokes; inappropriate touching, groping, and unwelcome sexual advances.
 - Deliberate intimidation, stalking or following (online or in person).
-- Advocating for, or encouraging, any of the above behaviour.
+- Advocating for, or encouraging, any of the above behaviours.
 - Sustained disruption of community events, including talks and presentations.
 
 ## 5. Consequences of Unacceptable Behaviour
@@ -54,6 +52,7 @@ If a community member engages in unacceptable behaviour, the community organiser
 ## 6. Reporting Guidelines
 
 If you are subject to or witness unacceptable behaviour, or have any other concerns, please notify a community organiser as soon as possible.
+
 
 Additionally, community organisers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behaviour feel safe. In the context of in-person events, organisers will also provide escorts as desired by the person experiencing distress.
 
@@ -69,12 +68,11 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 9. Contact info
 
-yashovardhan.agrawal@gmail.com
+Gitter Chatroom: <https://gitter.im/addy-org/Lobby/>
 
-## 10. License and attribution
+Mailing List: <addy-org@googlegroups.com>
 
-This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/).
+You can find the community maintainers [here](https://github.com/orgs/addy-org/teams/maintainers)
 
-Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
 
-Retrieved on November 22, 2016 from <http://citizencodeofconduct.org/>
+*// Retrieved on November 22, 2016 from [http://citizencodeofconduct.org/](http://citizencodeofconduct.org/)*
