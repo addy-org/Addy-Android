@@ -1,14 +1,20 @@
-**I'm submitting a ...**
+<!-- Hello! If you're filing a bug, please include every step so as to help us reproduce it on our machines. If you're unsure about how to file an issue, use the issue template. If you need any help, check out the documentation or hit us up on chat. You can ignore or delete this text, it is commented and won't appear when the issue is submitted or previewed.
 
-- [ ] bug report
-- [ ] feature request
+Chat: https://gitter.im/addy-org/Lobby
+Documentation: https://addy.wiki
+-->
 
-**Current behavior:**
+### Overview Description
 
-<!-- How the bug manifests. -->
+# Steps to Reproduce
+-
+-
+-
 
-**Expected behavior:**
+# Actual Results
 
-<!-- Behavior would be without the bug. -->
+# Expected Results
 
-**Steps to reproduce:**
+# Reproducibility
+
+# Additional Information:
