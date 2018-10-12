@@ -19,7 +19,7 @@ Like you have an Email ID, for addresses you have Addy! An app that changes the 
 
 ## Contribution Guidelines
 
-<https://github.com/addy-org/Addy-Android/wiki/Contribution-Guidelines>
+<https://github.com/addy-org/Addy-Android/blob/master/CONTRIBUTING.md>
 
 ## Getting Started with Contributing:
 
